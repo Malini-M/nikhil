@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Happy birthday Nikhil!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Menu</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id=myNavbar>
+            <ul class="nav navbar-nav">
+                <li><a href="#audioBtn">Audio</a></li>
+                <li><a href="#welcome">Home</a></li>
+                <li><a href="#slide">Slides</a></li>
+                <li><a href="#wishes">Wishes</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <audio loop id="song" src="Happy-Birthday-Guitar.mp3"></audio>
+    <br>
+    <section id="audioBtn">
+
+        <span class="sp">
+            <button onclick="playAudio()">Play song</button>
+            <button onclick="stopsound()">Stop song</button>
+        </span>
+    </section>
+    <br><br>
+    <section id="welcome">
+        <img src="gif.gif" class="profile img-circle">
+        <h1>07.07.2021<br>HAPPY BIRTHDAY
+            <br>
+            <span id="name">TO YOU NIKHIL</span>
+        </h1>
+    </section>
+    <br><br><br>
+    <section id="slide">
+        <h2>🥳🎂🎊🎉🤩 Happy Birthday Nikhil 🥳🎂🎊🎉🤩</h2>
+
+        <h5>Happy birthday to the most intelligent, smart and talented student. <br>I wish you reach great height of
+            success. All the best!!😊</h5><br>
+
+        <div id="myCarousel" class="carousel slide">
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <a href="#" target="_blank">
+                            <img src="happyBday1.jpg" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>Happy</p>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <a href="#" target="_blank">
+                            <img src="happyBday2.png" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>Birthday</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a href="#" target="_blank">
+                            <img src="bday%20gif.gif" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>Nikhil 😃</p>
+                        </div>
+                    </center>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+        <br><br>
+    </section>
+
+    <section id="wishes">
+
+        <h1>Hi Nikhil!</h1>
+        <div class="line"></div><br>
+        <p id="pWishes">I want to wish a very happy birthday to a very special student.<br>Stay blessed and happy
+            forever😊😊.<br> I wish you all the best for all your future endeavours.<br> Have a great
+            birthday!!!🥳🎂🎁🎊🎉</p>
+        <img src="name%20on%20cake.jpg" class="cake img-circle">
+        <br>
+        <h5>Best wishes from Malini Teacher</h5>
+    </section>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
